@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\FirstPersonProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FirstPersonProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FirstPersonProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.editorconfig" />
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\UpgradeLog.htm" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\FirstPersonProject">
+      <UniqueIdentifier>{1A3524AE-46F1-398F-985C-33B0F55CB6BD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FirstPersonProject\FirstPersonProject.Build.cs">
+      <Filter>Source\FirstPersonProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FirstPersonProject\FirstPersonProject.cpp">
+      <Filter>Source\FirstPersonProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FirstPersonProject\FirstPersonProject.h">
+      <Filter>Source\FirstPersonProject</Filter>
+    </ClInclude>
+    <Filter Include="Source\FirstPersonProject\Private">
+      <UniqueIdentifier>{CD5D7FF6-6B02-352F-BB32-FB7878752699}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FirstPersonProject\Private\FreerunCharacter.cpp">
+      <Filter>Source\FirstPersonProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FirstPersonProject\Private\FreerunMovementComponent.cpp">
+      <Filter>Source\FirstPersonProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FirstPersonProject\Private\FreeRunnerGameInstance.cpp">
+      <Filter>Source\FirstPersonProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FirstPersonProject\Private\FreeRunnerGameMode.cpp">
+      <Filter>Source\FirstPersonProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FirstPersonProject\Private\UtilityFunctions.cpp">
+      <Filter>Source\FirstPersonProject\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\FirstPersonProject\Public">
+      <UniqueIdentifier>{10ABCD0C-1AC8-3B83-A242-7F23E9F0D7C7}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\FirstPersonProject\Public\FreerunCharacter.h">
+      <Filter>Source\FirstPersonProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FirstPersonProject\Public\FreerunMovementComponent.h">
+      <Filter>Source\FirstPersonProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FirstPersonProject\Public\FreeRunnerGameInstance.h">
+      <Filter>Source\FirstPersonProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FirstPersonProject\Public\FreeRunnerGameMode.h">
+      <Filter>Source\FirstPersonProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FirstPersonProject\Public\UtilityFunctions.h">
+      <Filter>Source\FirstPersonProject\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

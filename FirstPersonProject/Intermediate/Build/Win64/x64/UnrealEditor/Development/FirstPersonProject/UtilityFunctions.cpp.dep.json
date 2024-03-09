@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\github\\firstpersonproject\\firstpersonproject\\source\\firstpersonproject\\private\\utilityfunctions.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\github\\firstpersonproject\\firstpersonproject\\intermediate\\build\\win64\\x64\\firstpersonprojecteditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "e:\\github\\firstpersonproject\\firstpersonproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\firstpersonproject\\definitions.firstpersonproject.h",
+            "e:\\github\\firstpersonproject\\firstpersonproject\\source\\firstpersonproject\\public\\utilityfunctions.h",
+            "e:\\github\\firstpersonproject\\firstpersonproject\\intermediate\\build\\win64\\unrealeditor\\inc\\firstpersonproject\\uht\\utilityfunctions.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
