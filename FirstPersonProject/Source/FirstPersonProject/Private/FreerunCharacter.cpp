@@ -15,7 +15,7 @@ AFreerunCharacter::AFreerunCharacter()
 void AFreerunCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 }
 
 // Called every frame

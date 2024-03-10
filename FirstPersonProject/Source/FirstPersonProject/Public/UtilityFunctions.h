@@ -16,8 +16,8 @@ class FIRSTPERSONPROJECT_API UUtilityFunctions : public UBlueprintFunctionLibrar
 	
 public:
 
-	UFUNCTION(BlueprintCallable, BlueprintPure)
+	/*UFUNCTION(BlueprintCallable, BlueprintPure)
 	static UWorld* GetWorld(AActor* Actor) {
 		return Actor->GetWorld();
-	}
+	}*/
 };

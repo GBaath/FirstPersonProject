@@ -19,6 +19,7 @@ enum class EPlayerGroundState : uint8
 UENUM(BlueprintType)
 enum class EPlayerAirState : uint8 
 {
+	None,
 	Jumping,
 	Falling,
 	Climbing
@@ -31,22 +32,22 @@ class FIRSTPERSONPROJECT_API AFreerunCharacter : public APawn
 public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	EPlayerGroundState GroundState;	
+	EPlayerGroundState GroundState = EPlayerGroundState::Idle;	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	EPlayerAirState AirState;
+	EPlayerAirState AirState = EPlayerAirState::None;
 
 
 	//TODO fix this shit no default va<lue
 
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Components")
-	class USceneComponent* Root;
+	//UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Components")
+	//class USceneComponent* Root;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Components")
-	class UCapsuleComponent* Capsule;
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Components")
+	//class UCapsuleComponent* Capsule;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Components")
-	class UCharacterMovementComponent* MoveComp;
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Components")
+	//class UCharacterMovementComponent* MoveComp;
 
 	// Sets default values for this character's properties
 	AFreerunCharacter();

@@ -24,7 +24,7 @@ private: \
 	static void StaticRegisterNativesUFreerunMovementComponent(); \
 	friend struct Z_Construct_UClass_UFreerunMovementComponent_Statics; \
 public: \
-	DECLARE_CLASS(UFreerunMovementComponent, UCharacterMovementComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/FirstPersonProject"), NO_API) \
+	DECLARE_CLASS(UFreerunMovementComponent, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/FirstPersonProject"), NO_API) \
 	DECLARE_SERIALIZER(UFreerunMovementComponent)
 
 

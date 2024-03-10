@@ -10,9 +10,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeFreerunCharacter() {}
 // Cross Module References
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
-	ENGINE_API UClass* Z_Construct_UClass_UCapsuleComponent_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_UCharacterMovementComponent_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 	FIRSTPERSONPROJECT_API UClass* Z_Construct_UClass_AFreerunCharacter();
 	FIRSTPERSONPROJECT_API UClass* Z_Construct_UClass_AFreerunCharacter_NoRegister();
 	FIRSTPERSONPROJECT_API UEnum* Z_Construct_UEnum_FirstPersonProject_EPlayerAirState();
@@ -100,6 +97,7 @@ void EmptyLinkFunctionForGeneratedCodeFreerunCharacter() {}
 		static const UECodeGen_Private::FEnumParams EnumParams;
 	};
 	const UECodeGen_Private::FEnumeratorParam Z_Construct_UEnum_FirstPersonProject_EPlayerAirState_Statics::Enumerators[] = {
+		{ "EPlayerAirState::None", (int64)EPlayerAirState::None },
 		{ "EPlayerAirState::Jumping", (int64)EPlayerAirState::Jumping },
 		{ "EPlayerAirState::Falling", (int64)EPlayerAirState::Falling },
 		{ "EPlayerAirState::Climbing", (int64)EPlayerAirState::Climbing },
@@ -111,6 +109,7 @@ void EmptyLinkFunctionForGeneratedCodeFreerunCharacter() {}
 		{ "Falling.Name", "EPlayerAirState::Falling" },
 		{ "Jumping.Name", "EPlayerAirState::Jumping" },
 		{ "ModuleRelativePath", "Public/FreerunCharacter.h" },
+		{ "None.Name", "EPlayerAirState::None" },
 	};
 #endif
 	const UECodeGen_Private::FEnumParams Z_Construct_UEnum_FirstPersonProject_EPlayerAirState_Statics::EnumParams = {
@@ -157,18 +156,6 @@ void EmptyLinkFunctionForGeneratedCodeFreerunCharacter() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_AirState_MetaData[];
 #endif
 		static const UECodeGen_Private::FEnumPropertyParams NewProp_AirState;
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_Root_MetaData[];
-#endif
-		static const UECodeGen_Private::FObjectPropertyParams NewProp_Root;
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_Capsule_MetaData[];
-#endif
-		static const UECodeGen_Private::FObjectPropertyParams NewProp_Capsule;
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_MoveComp_MetaData[];
-#endif
-		static const UECodeGen_Private::FObjectPropertyParams NewProp_MoveComp;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -202,45 +189,12 @@ void EmptyLinkFunctionForGeneratedCodeFreerunCharacter() {}
 		{ "ModuleRelativePath", "Public/FreerunCharacter.h" },
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_AFreerunCharacter_Statics::NewProp_AirState = { "AirState", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFreerunCharacter, AirState), Z_Construct_UEnum_FirstPersonProject_EPlayerAirState, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AFreerunCharacter_Statics::NewProp_AirState_MetaData), Z_Construct_UClass_AFreerunCharacter_Statics::NewProp_AirState_MetaData) }; // 2493149746
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFreerunCharacter_Statics::NewProp_Root_MetaData[] = {
-		{ "Category", "Components" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "//TODO fix this shit no default va<lue\n" },
-#endif
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Public/FreerunCharacter.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "TODO fix this shit no default va<lue" },
-#endif
-	};
-#endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFreerunCharacter_Statics::NewProp_Root = { "Root", nullptr, (EPropertyFlags)0x00100000000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFreerunCharacter, Root), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AFreerunCharacter_Statics::NewProp_Root_MetaData), Z_Construct_UClass_AFreerunCharacter_Statics::NewProp_Root_MetaData) };
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFreerunCharacter_Statics::NewProp_Capsule_MetaData[] = {
-		{ "Category", "Components" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Public/FreerunCharacter.h" },
-	};
-#endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFreerunCharacter_Statics::NewProp_Capsule = { "Capsule", nullptr, (EPropertyFlags)0x001000000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFreerunCharacter, Capsule), Z_Construct_UClass_UCapsuleComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AFreerunCharacter_Statics::NewProp_Capsule_MetaData), Z_Construct_UClass_AFreerunCharacter_Statics::NewProp_Capsule_MetaData) };
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFreerunCharacter_Statics::NewProp_MoveComp_MetaData[] = {
-		{ "Category", "Components" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Public/FreerunCharacter.h" },
-	};
-#endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFreerunCharacter_Statics::NewProp_MoveComp = { "MoveComp", nullptr, (EPropertyFlags)0x001000000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFreerunCharacter, MoveComp), Z_Construct_UClass_UCharacterMovementComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AFreerunCharacter_Statics::NewProp_MoveComp_MetaData), Z_Construct_UClass_AFreerunCharacter_Statics::NewProp_MoveComp_MetaData) };
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_AFreerunCharacter_Statics::NewProp_AirState = { "AirState", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFreerunCharacter, AirState), Z_Construct_UEnum_FirstPersonProject_EPlayerAirState, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AFreerunCharacter_Statics::NewProp_AirState_MetaData), Z_Construct_UClass_AFreerunCharacter_Statics::NewProp_AirState_MetaData) }; // 1026842690
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFreerunCharacter_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFreerunCharacter_Statics::NewProp_GroundState_Underlying,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFreerunCharacter_Statics::NewProp_GroundState,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFreerunCharacter_Statics::NewProp_AirState_Underlying,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFreerunCharacter_Statics::NewProp_AirState,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFreerunCharacter_Statics::NewProp_Root,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFreerunCharacter_Statics::NewProp_Capsule,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFreerunCharacter_Statics::NewProp_MoveComp,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AFreerunCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AFreerunCharacter>::IsAbstract,
@@ -282,12 +236,12 @@ void EmptyLinkFunctionForGeneratedCodeFreerunCharacter() {}
 	};
 	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_FirstPersonProject_FirstPersonProject_Source_FirstPersonProject_Public_FreerunCharacter_h_Statics::EnumInfo[] = {
 		{ EPlayerGroundState_StaticEnum, TEXT("EPlayerGroundState"), &Z_Registration_Info_UEnum_EPlayerGroundState, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3444908820U) },
-		{ EPlayerAirState_StaticEnum, TEXT("EPlayerAirState"), &Z_Registration_Info_UEnum_EPlayerAirState, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2493149746U) },
+		{ EPlayerAirState_StaticEnum, TEXT("EPlayerAirState"), &Z_Registration_Info_UEnum_EPlayerAirState, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1026842690U) },
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_FirstPersonProject_FirstPersonProject_Source_FirstPersonProject_Public_FreerunCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AFreerunCharacter, AFreerunCharacter::StaticClass, TEXT("AFreerunCharacter"), &Z_Registration_Info_UClass_AFreerunCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFreerunCharacter), 3919050706U) },
+		{ Z_Construct_UClass_AFreerunCharacter, AFreerunCharacter::StaticClass, TEXT("AFreerunCharacter"), &Z_Registration_Info_UClass_AFreerunCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFreerunCharacter), 555322231U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_FirstPersonProject_FirstPersonProject_Source_FirstPersonProject_Public_FreerunCharacter_h_2673543282(TEXT("/Script/FirstPersonProject"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_FirstPersonProject_FirstPersonProject_Source_FirstPersonProject_Public_FreerunCharacter_h_2304944507(TEXT("/Script/FirstPersonProject"),
 		Z_CompiledInDeferFile_FID_Github_FirstPersonProject_FirstPersonProject_Source_FirstPersonProject_Public_FreerunCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Github_FirstPersonProject_FirstPersonProject_Source_FirstPersonProject_Public_FreerunCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_Github_FirstPersonProject_FirstPersonProject_Source_FirstPersonProject_Public_FreerunCharacter_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Github_FirstPersonProject_FirstPersonProject_Source_FirstPersonProject_Public_FreerunCharacter_h_Statics::EnumInfo));

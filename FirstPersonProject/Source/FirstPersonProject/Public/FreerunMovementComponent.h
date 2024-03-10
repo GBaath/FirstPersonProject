@@ -3,14 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/CharacterMovementComponent.h"
+#include "Components/ActorComponent.h"
 #include "FreerunMovementComponent.generated.h"
 
 /**
  * 
  */
-UCLASS()
-class FIRSTPERSONPROJECT_API UFreerunMovementComponent : public UCharacterMovementComponent
+UCLASS(Blueprintable)
+class FIRSTPERSONPROJECT_API UFreerunMovementComponent : public UActorComponent
 {
 	GENERATED_BODY()
 	

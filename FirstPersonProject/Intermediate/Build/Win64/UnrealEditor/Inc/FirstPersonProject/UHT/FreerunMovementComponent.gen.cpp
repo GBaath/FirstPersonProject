@@ -9,7 +9,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeFreerunMovementComponent() {}
 // Cross Module References
-	ENGINE_API UClass* Z_Construct_UClass_UCharacterMovementComponent();
+	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	FIRSTPERSONPROJECT_API UClass* Z_Construct_UClass_UFreerunMovementComponent();
 	FIRSTPERSONPROJECT_API UClass* Z_Construct_UClass_UFreerunMovementComponent_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_FirstPersonProject();
@@ -32,16 +32,18 @@ void EmptyLinkFunctionForGeneratedCodeFreerunMovementComponent() {}
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
 	UObject* (*const Z_Construct_UClass_UFreerunMovementComponent_Statics::DependentSingletons[])() = {
-		(UObject* (*)())Z_Construct_UClass_UCharacterMovementComponent,
+		(UObject* (*)())Z_Construct_UClass_UActorComponent,
 		(UObject* (*)())Z_Construct_UPackage__Script_FirstPersonProject,
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFreerunMovementComponent_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFreerunMovementComponent_Statics::Class_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * \n */" },
 #endif
 		{ "IncludePath", "FreerunMovementComponent.h" },
+		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "Public/FreerunMovementComponent.h" },
 	};
 #endif
@@ -83,9 +85,9 @@ void EmptyLinkFunctionForGeneratedCodeFreerunMovementComponent() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_FirstPersonProject_FirstPersonProject_Source_FirstPersonProject_Public_FreerunMovementComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UFreerunMovementComponent, UFreerunMovementComponent::StaticClass, TEXT("UFreerunMovementComponent"), &Z_Registration_Info_UClass_UFreerunMovementComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFreerunMovementComponent), 304871798U) },
+		{ Z_Construct_UClass_UFreerunMovementComponent, UFreerunMovementComponent::StaticClass, TEXT("UFreerunMovementComponent"), &Z_Registration_Info_UClass_UFreerunMovementComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFreerunMovementComponent), 3638715411U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_FirstPersonProject_FirstPersonProject_Source_FirstPersonProject_Public_FreerunMovementComponent_h_1310341042(TEXT("/Script/FirstPersonProject"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_FirstPersonProject_FirstPersonProject_Source_FirstPersonProject_Public_FreerunMovementComponent_h_2088433902(TEXT("/Script/FirstPersonProject"),
 		Z_CompiledInDeferFile_FID_Github_FirstPersonProject_FirstPersonProject_Source_FirstPersonProject_Public_FreerunMovementComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Github_FirstPersonProject_FirstPersonProject_Source_FirstPersonProject_Public_FreerunMovementComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
