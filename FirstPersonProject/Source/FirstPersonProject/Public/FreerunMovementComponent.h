@@ -15,5 +15,10 @@ class FIRSTPERSONPROJECT_API UFreerunMovementComponent : public UActorComponent
 	GENERATED_BODY()
 	
 public: 
+	void ApplyGravity();
+
+	void ManageFOV();
+
+	float ManageSpeedInterpolation();
 
 };

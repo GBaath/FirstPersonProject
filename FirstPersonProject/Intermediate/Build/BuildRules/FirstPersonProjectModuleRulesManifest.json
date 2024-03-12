@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"E:\\Github\\FirstPersonProject\\FirstPersonProject\\Source\\FirstPersonProject\\FirstPersonProject.Build.cs",
-		"E:\\Github\\FirstPersonProject\\FirstPersonProject\\Source\\FirstPersonProject.Target.cs",
-		"E:\\Github\\FirstPersonProject\\FirstPersonProject\\Source\\FirstPersonProjectEditor.Target.cs"
+		"C:\\Users\\gvb7m\\Documents\\Unreal Projects\\FirstPersonProject\\FirstPersonProject\\Source\\FirstPersonProject\\FirstPersonProject.Build.cs",
+		"C:\\Users\\gvb7m\\Documents\\Unreal Projects\\FirstPersonProject\\FirstPersonProject\\Source\\FirstPersonProject.Target.cs",
+		"C:\\Users\\gvb7m\\Documents\\Unreal Projects\\FirstPersonProject\\FirstPersonProject\\Source\\FirstPersonProjectEditor.Target.cs"
 	],
 	"EngineVersion": "5.3.2"
 }
