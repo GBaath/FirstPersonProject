@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\github\\firstpersonproject\\firstpersonproject\\source\\firstpersonproject\\private\\freerunnergamemode.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\github\\firstpersonproject\\firstpersonproject\\intermediate\\build\\win64\\x64\\firstpersonproject\\debuggame\\engine\\sharedpch.engine.nonoptimized.cpp20.h.pch",
+        "Includes": [
+            "e:\\github\\firstpersonproject\\firstpersonproject\\intermediate\\build\\win64\\x64\\unrealgame\\debuggame\\firstpersonproject\\definitions.firstpersonproject.h",
+            "e:\\github\\firstpersonproject\\firstpersonproject\\source\\firstpersonproject\\public\\freerunnergamemode.h",
+            "e:\\programs\\epic\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "e:\\programs\\epic\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "e:\\programs\\epic\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "e:\\programs\\epic\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "e:\\programs\\epic\\ue_5.3\\engine\\plugins\\cameras\\gameplaycameras\\source\\gameplaycameras\\public\\legacycamerashake.h",
+            "e:\\programs\\epic\\ue_5.3\\engine\\plugins\\cameras\\gameplaycameras\\intermediate\\build\\win64\\unrealgame\\inc\\gameplaycameras\\uht\\legacycamerashake.generated.h",
+            "e:\\github\\firstpersonproject\\firstpersonproject\\intermediate\\build\\win64\\unrealgame\\inc\\firstpersonproject\\uht\\freerunnergamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,2 @@
+// Compiler: 14.36.32544
+#include "E:/Github/FirstPersonProject/FirstPersonProject/Intermediate/Build/Win64/x64/FirstPersonProject/DebugGame/CoreUObject/SharedPCH.CoreUObject.RTTI.Exceptions.Cpp20.h"

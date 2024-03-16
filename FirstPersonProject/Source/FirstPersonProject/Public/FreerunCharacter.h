@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "FreerunMovementComponent.h"
 #include "FreerunCharacter.generated.h"
 
 
@@ -35,6 +36,10 @@ public:
 	EPlayerGroundState GroundState = EPlayerGroundState::Idle;	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	EPlayerAirState AirState = EPlayerAirState::None;
+
+	UPROPERTY()
+	UFreerunMovementComponent* MoveComp;
+
 
 
 	//TODO fix this shit no default va<lue

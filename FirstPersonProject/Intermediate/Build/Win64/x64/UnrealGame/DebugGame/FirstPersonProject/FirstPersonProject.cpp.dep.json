@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\github\\firstpersonproject\\firstpersonproject\\source\\firstpersonproject\\firstpersonproject.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\github\\firstpersonproject\\firstpersonproject\\intermediate\\build\\win64\\x64\\firstpersonproject\\debuggame\\engine\\sharedpch.engine.nonoptimized.cpp20.h.pch",
+        "Includes": [
+            "e:\\github\\firstpersonproject\\firstpersonproject\\intermediate\\build\\win64\\x64\\unrealgame\\debuggame\\firstpersonproject\\definitions.firstpersonproject.h",
+            "e:\\github\\firstpersonproject\\firstpersonproject\\source\\firstpersonproject\\firstpersonproject.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

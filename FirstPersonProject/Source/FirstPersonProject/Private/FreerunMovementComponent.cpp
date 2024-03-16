@@ -3,3 +3,7 @@
 
 #include "FreerunMovementComponent.h"
 
+void UFreerunMovementComponent::ApplyGravity(float DeltaTime)
+{
+	ApplyControlInputToVelocity(DeltaTime);
+}

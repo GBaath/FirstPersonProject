@@ -1,0 +1,25 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\github\\firstpersonproject\\firstpersonproject\\intermediate\\build\\win64\\unrealgame\\inc\\firstpersonproject\\uht\\freerunmovementcomponent.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\github\\firstpersonproject\\firstpersonproject\\intermediate\\build\\win64\\x64\\firstpersonproject\\debuggame\\engine\\sharedpch.engine.nonoptimized.cpp20.h.pch",
+        "Includes": [
+            "e:\\github\\firstpersonproject\\firstpersonproject\\intermediate\\build\\win64\\x64\\unrealgame\\debuggame\\firstpersonproject\\definitions.firstpersonproject.h",
+            "e:\\github\\firstpersonproject\\firstpersonproject\\source\\firstpersonproject\\public\\freerunmovementcomponent.h",
+            "e:\\programs\\epic\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\floatingpawnmovement.h",
+            "e:\\programs\\epic\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\pawnmovementcomponent.h",
+            "e:\\programs\\epic\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\navmovementcomponent.h",
+            "e:\\programs\\epic\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\ai\\navigation\\pathfollowingagentinterface.h",
+            "e:\\programs\\epic\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\pathfollowingagentinterface.generated.h",
+            "e:\\programs\\epic\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\movementcomponent.h",
+            "e:\\programs\\epic\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\movementcomponent.generated.h",
+            "e:\\programs\\epic\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\navmovementcomponent.generated.h",
+            "e:\\programs\\epic\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\pawnmovementcomponent.generated.h",
+            "e:\\programs\\epic\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\floatingpawnmovement.generated.h",
+            "e:\\github\\firstpersonproject\\firstpersonproject\\intermediate\\build\\win64\\unrealgame\\inc\\firstpersonproject\\uht\\freerunmovementcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

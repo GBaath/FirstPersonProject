@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\github\\firstpersonproject\\firstpersonproject\\intermediate\\build\\win64\\unrealgame\\inc\\firstpersonproject\\uht\\freeruncharacter.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\github\\firstpersonproject\\firstpersonproject\\intermediate\\build\\win64\\x64\\firstpersonproject\\debuggame\\engine\\sharedpch.engine.nonoptimized.cpp20.h.pch",
+        "Includes": [
+            "e:\\github\\firstpersonproject\\firstpersonproject\\intermediate\\build\\win64\\x64\\unrealgame\\debuggame\\firstpersonproject\\definitions.firstpersonproject.h",
+            "e:\\github\\firstpersonproject\\firstpersonproject\\source\\firstpersonproject\\public\\freeruncharacter.h",
+            "e:\\programs\\epic\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "e:\\programs\\epic\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "e:\\programs\\epic\\ue_5.3\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "e:\\programs\\epic\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "e:\\programs\\epic\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "e:\\programs\\epic\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "e:\\programs\\epic\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "e:\\programs\\epic\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\character.generated.h",
+            "e:\\github\\firstpersonproject\\firstpersonproject\\intermediate\\build\\win64\\unrealgame\\inc\\firstpersonproject\\uht\\freeruncharacter.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
