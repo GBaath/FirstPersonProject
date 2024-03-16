@@ -4,18 +4,21 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "GameFramework/FloatingPawnMovement.h"
 #include "FreerunMovementComponent.generated.h"
 
 /**
  * 
  */
-UCLASS(Blueprintable)
-class FIRSTPERSONPROJECT_API UFreerunMovementComponent : public UActorComponent
+UCLASS(Blueprintable, meta = (BlueprintSpawnableComponent))
+class FIRSTPERSONPROJECT_API UFreerunMovementComponent : public UFloatingPawnMovement
 {
 	GENERATED_BODY()
 	
 public: 
-	void ApplyGravity();
+
+	UFUNCTION(BlueprintCallable)
+	void ApplyGravity(float DeltaTime);
 
 	void ManageFOV();
 
